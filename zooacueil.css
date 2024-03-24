@@ -1,0 +1,1108 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase
+}
+
+.navbar .nav {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.2rem
+}
+
+.navbar-inverse {
+  background-color: #B0F2B6
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  background-color: #B0F2B6
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  background-color: #B0F2B6
+}
+
+.dropdown-menu {
+  background-color: #B0F2B6
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-color: #B0F2B6
+}
+
+.navbar-inverse {
+  background-image: none;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-image: none;
+}
+
+.navbar-inverse {
+  border-color: #B0F2B6
+}
+
+.navbar-inverse .navbar-brand {
+  color: black
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: black
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+  color: #FFCC00
+}
+
+.dropdown-menu>li>a {
+  color: black
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-top-color: black
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-top-color: black
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-bottom-color: black
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-bottom-color: black;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.bienvenue{
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: small-caps bold 24px/1 sans-serif;
+  color: black;
+}
+
+.titretable{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: small-caps bold 24px/1 sans-serif;
+    color: black;
+}
+
+
+.gestionanimaux{
+  width: 600px;
+  height: 350px;
+  border: 2px solid white;
+  background-image: url(raton.jpg);
+  border-radius: 40px;
+    margin: auto;
+    position:absolute;
+    top:150px;
+    right:850px;
+    text-align: center;
+}
+
+.gestionanimaux:hover{
+  filter: grayscale(100%);
+}
+
+.gestionemploye{
+  width: 600px;
+  height: 350px;
+  background-image: url(staff.jpg);
+  border: 2px solid white;
+  border-radius: 40px;
+    margin: auto;
+    position:absolute;
+    top:150px;
+    right:90px;
+    text-align: center;
+}
+
+.gestionemploye:hover{
+  filter: grayscale(100%);
+  
+}
+
+h2{
+  color: #B0F2B6;
+  --couleur:0, 0, 0;
+margin: 2rem auto;
+display: flex;
+justify-content: center;
+font-family: 'Exo';
+color: #7cfc00;
+text-shadow: 
+0 1px 0 #ccc, 
+0 2px 0 #acacac,
+0 3px 0 #a0a0a0,
+0 4px 0 #9b9a9a,
+0 5px 0 #888787,
+0 6px 1px rgba(var(--couleur),.1),
+0 0 5px rgba(var(--couleur),.1),
+0 1px 3px rgba(var(--couleur),.3),
+0 3px 5px rgba(var(--couleur),.3),
+0 5px 10px rgba(var(--couleur),.25),
+0 10px 10px rgba(var(--couleur),.2),
+0 20px 20px rgba(var(--couleur),.15);
+}
+
+.barre{
+  width: 5px;
+  height: 350px;
+  background-color: black;
+    margin: auto;
+    position:absolute;
+    top:150px;
+    right:765px;
+    text-align: center;
+}
+
+.gestion{
+  text-align: center;
+}
+
+.element {
+  width: 110px;
+	height: 110px;
+	background-image: url(raton.jpg);
+	cursor: pointer;
+  top:150px;
+  right:90px;
+  position: relative;
+     top: 30%;
+     transform: perspective(1px) translateY(230%);
+	}
+
+  .transition-width {	
+    transition: 2s linear 1s;
+    -webkit-transition: 2s linear 1s;  
+}
+
+.transition-width:hover {
+	width: 106%;
+	background-image: url(staff.jpg);
+  filter: grayscale(100%);
+}
+
+.affiche{
+    margin: auto;
+    position:absolute;
+    top:200px;
+    right:475px;
+    text-align: center;
+}
+
+form{
+  margin: auto;
+    position:absolute;
+    top:200px;
+    right:600px;
+    text-align: center;
+}
+
+.formulaire1{
+  margin: auto;
+    position:absolute;
+    top:1px;
+    right:1px;
+    text-align: center;
+}
+
+.gestionanimaux1{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:350px;
+    right:1365px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux1:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux2{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:350px;
+    right:1250px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux2:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+
+.gestionanimaux3{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:350px;
+    right:1135px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux3:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux4{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:350px;
+    right:1020px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux4:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux5{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:350px;
+    right:905px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux5:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux6{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:350px;
+    right:790px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux6:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux7{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:350px;
+    right:675px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux7:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux8{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:350px;
+    right:560px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux8:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux9{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:350px;
+    right:445px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux9:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux10{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:350px;
+    right:330px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux10:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux11{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:350px;
+    right:215px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux11:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux12{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:350px;
+    right:100px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux12:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux13{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:235px;
+    right:1365px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux13:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux14{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:235px;
+    right:1250px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux14:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+
+.gestionanimaux15{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:235px;
+    right:1135px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux15:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux16{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:235px;
+    right:1020px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux16:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux17{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:235px;
+    right:905px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux17:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux18{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:235px;
+    right:790px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux18:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux19{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:235px;
+    right:675px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux19:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux20{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:235px;
+    right:560px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux20:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux21{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:235px;
+    right:445px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux21:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux22{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:235px;
+    right:330px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux22:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux23{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:235px;
+    right:215px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux23:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux24{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:235px;
+    right:100px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux24:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux25{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:465px;
+    right:1365px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux25:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux26{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:465px;
+    right:1250px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux26:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+
+.gestionanimaux27{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:465px;
+    right:1135px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux27:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux28{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:465px;
+    right:1020px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux28:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux29{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:465px;
+    right:905px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux29:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux30{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:465px;
+    right:790px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux30:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux31{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:465px;
+    right:675px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux31:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux32{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:465px;
+    right:560px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux32:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux33{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:465px;
+    right:445px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux33:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux34{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:465px;
+    right:330px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux34:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux35{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:465px;
+    right:215px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux35:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux36{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:465px;
+    right:100px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux36:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux37{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:580px;
+    right:1365px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux37:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux38{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:580px;
+    right:1250px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux38:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+
+.gestionanimaux39{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:580px;
+    right:1135px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux39:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux40{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:580px;
+    right:1020px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux40:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux41{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:580px;
+    right:905px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux41:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux42{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:580px;
+    right:790px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux42:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux43{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:580px;
+    right:675px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux43:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux44{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:580px;
+    right:560px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux44:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux45{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:580px;
+    right:445px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux45:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux46{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:580px;
+    right:330px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux46:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux47{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:580px;
+    right:215px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux47:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+.gestionanimaux48{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+    margin: auto;
+    position:absolute;
+    top:580px;
+    right:100px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.gestionanimaux48:hover{
+  filter: grayscale(100%); 
+  transform: scale(1.2); 
+}
+
+
+.choixfond{
+
+  width: 200px;
+  height: 200px;
+  border-radius: 40px;
+    margin: auto;
+    position:absolute;
+    top:350px;
+    right:-20px;
+    text-align: center;
+}
+
+
+
+img{
+  border-radius: 20px;
+}
+
+h2{
+  width: 500;
+  border-radius: 3px;
+  border: 5px outset #B0F2B6;
+  border-radius: 0px 0px 0px 0px;
+}
+

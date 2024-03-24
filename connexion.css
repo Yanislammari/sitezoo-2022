@@ -1,0 +1,109 @@
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+  }
+  
+  .login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-image: url(fondn.webp);
+    border: 5px outset #B0F2B6;
+    border-radius: 0px 0px 0px 0px; 
+    position:absolute;
+    top:300px;
+    right:590px  
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+  }
+  
+  h4 {
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  input[type="submit"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color:#B0F2B6;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #000000;
+    border-radius: 40px 40px 40px 40px;
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    font-size: 15px;
+  }
+  .para-2 {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .para-2 a {
+    color: #000000;
+    font-size: 15px;
+  }
+
+  label{
+    font-size: 15px;
+    color :white;
+  }
+
+  input{
+    font-size: 15px;
+  } 
+
+.message{
+    width: 220px;
+    height: 150px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+h2{
+    text-align: center;
+    font-size: 50px;
+  }
+h3{
+    text-align: center;
+    font-size: 35px;
+  }
